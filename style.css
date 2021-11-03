@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.2s all linear;
+}
+body{
+    height: 2000px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    background-color: #313131;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.container1{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+.container1 .logo img{
+    width: 120px;
+}
+.contact a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.container1 .icons i{
+    font-size: 50px;
+}
+.contact{
+    padding: 10px 0;
+}
+
+.input input{
+    width: 840px;
+    height: 40px;
+    font-size: 20px;
+    padding: 0 30px;
+   
+}
+.input{
+    position: relative;
+}
+
+.fa-search{
+    position: absolute;
+    font-size: 18px;
+    top: 10px;
+    left: 6px;
+    color: rgb(75, 75, 75);
+}
+.fa-search:hover{
+    color: #000;
+}
+
+.container1 .icons i{
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+.icons{
+    display: flex;
+}
+.icons .shop{
+    position: relative;
+}
+.badge{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: red;
+    top: 0;
+    right: -4px;
+}
+
+.navbar{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.navbar .menu a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+}
+
+.carousel{
+    width: 1140px;
+    margin: 40px auto;
+}
+
+.content{
+    width: 1140px;
+    margin: 0 auto;
+}
+.row{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.row .card {
+    height: 335px;
+    width: 243px;
+    padding: 10px;
+    position: relative;
+    display: inline-block;
+}
+.row .card .card-image{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.row .card h3{
+    margin-top: 40px;
+}
+
+.row .card p{
+    margin-top: 10px;
+}
+
+.row .card h4{
+    margin-top: 15px;
+}
+
+.row .card i{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: grey;
+    cursor: pointer;
+}
+
+.row .card i:hover{
+    color: rgb(255, 0, 0);
+}
+
+.row .card:hover{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.301);
+}
+
+.row .card .card-drop{
+    display: none;
+    position: absolute;
+    left: 0; top: 310px;
+    width: 243px;
+    padding: 0 10px;
+    background-color: #fff;
+    box-shadow: 4px 4px 4px 0 rgba(29, 29, 29, 0.164);
+    z-index: 1000;
+}
+
+.row .card:hover .card-drop{
+    display: block;
+}
+.row .card .card-drop .size{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row .card .card-drop .size .razmer{
+    font-size: 10px;
+    color: rgb(182, 182, 182);
+}
+
+.row .card .card-drop .size .sm{
+    font-size: 12px;
+}
+
+.row .card .card-drop .btn{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #245462;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
